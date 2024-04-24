@@ -1,0 +1,174 @@
+*{
+        font-family: "Poppins",   sans-serif;
+        font-weight: 400, 500, 700;
+        font-style: normal;
+        margin: 0;
+        padding: 0;
+       box-sizing: border-box;
+      }
+
+      .wrapper{
+         width: 100vh;
+         height: 100vh;
+      }
+
+      section{
+        margin: 20px 0 0 60px;
+        
+      }
+
+
+     .link-header{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 21px;
+        margin-right: 25px;
+        color: rgba(23, 35, 61, 1);
+        cursor: pointer;
+        }
+
+     
+
+     #Botão{
+        position: relative;
+        top: -37px;
+        left: 330px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 21px;
+        width: 124px;
+        height: 51px;
+        background: rgba(111, 191, 68, 1);
+        color: white;
+        border-radius: 6px;
+        border: none;
+        margin: 0 10px;
+        cursor: pointer;
+     }
+
+     img{
+      width: 595.18px;
+      height: 500px;
+      display: inline-block;
+      margin-left: 40px;
+      margin-right: 79px;  
+      margin-top: 100px;
+       
+      
+     }
+     div{
+        display: inline-block;
+        position: absolute;
+       
+      
+     }
+
+     h1{
+        font-weight: 700;
+        font-size:62px;
+        line-height:82px;
+        color: rgba(22, 26, 73, 1);
+        width: 582px;
+        height: 164px;
+        margin-top: 196px;
+        
+
+     }
+
+     p{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 33px;
+        width: 493px;
+        height: 99px;
+        color: rgba(75, 80, 90, 1);
+        margin: 25px 0;
+     }
+
+     a{
+        text-decoration: none;
+        color: rgba(111, 191, 68, 1); ;
+     }
+
+     @media screen and (max-width: 700px) {
+        .wrapper{
+         width: auto;
+         height: auto;
+        }
+
+        section{
+         margin: -120px auto;
+
+        }
+     #Botão{
+        width: 114px;
+        height: 51px;
+        background: rgba(111, 191, 68, 1);
+        color: white;
+        border-radius: 6px;
+        border: none;
+        margin-top: 140px;
+        position: sticky;
+        left: 250px;
+       }  
+
+
+
+       header{
+         display: none;
+       }
+
+       main{
+         width: auto;
+         height: auto;
+       }
+
+       img{
+         width: 312px;
+         height: 288px;
+         display: block;
+         position: relative;
+         margin: 10px auto;
+         top: 410px;
+       }
+       div{
+         height: 60px;
+         display: block;
+         margin-left: 10px;
+         margin-right: 10px;
+         margin-top: -40%;
+         
+      }
+
+       h1{
+         width: auto;
+         height: 60px;
+         font-size: 30px;
+         line-height: 30px;
+         text-align:center;
+         margin: 0 auto;
+      
+       }
+
+       p{
+         height: 160px;
+         width: auto;
+         font-size: 18px;
+         line-height: 31px;
+         text-align: center;
+         margin: 0px 10px;
+       }
+
+       #link-div{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        text-align: center;
+        position: relative;
+        left: 35%;
+        top: -40%;
+      
+      }
+      
+   }
+     
