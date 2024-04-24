@@ -110,10 +110,12 @@
         margin-top: 140px;
         position: sticky;
         left: 250px;
+        
        }  
 
-
-
+      #Botão:hover{
+      opacity: 0.9;
+   }
        header{
          display: none;
        }
